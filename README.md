@@ -11,10 +11,16 @@ Desarrollo del taller práctico de ingeniería de datos enfocado en la implement
 - .env: Credenciales y parámetros de conexión.
 - requirements.txt: Dependencias de Python.
 
+## Despliegue e Infraestructura
+El entorno de base de datos se encuentra desplegado bajo una arquitectura en la nube y conectividad segura:
+- **Infraestructura:** Servidor virtual (VM) alojado en Google Cloud Platform (GCP).
+- **Contenedorización:** Motor PostgreSQL (versión 16) ejecutándose en un contenedor Docker aislado (`db_etl_workshop`) en el puerto `5433`.
+- **Conectividad de Red:** Conexión segura punto a punto establecida mediante una red virtual privada ZeroTier, permitiendo la comunicación directa sin exponer puertos públicos innecesarios hacia el exterior.
+
 ## Ejecucion del Proyecto
 
 1. Instalar dependencias:
    python3 -m pip install -r requirements.txt
 
-2. Ejecutar el pipeline:
+2. Ejecutar el pipeline ETL desde la máquina local:
    python3 src/etl_pipeline.py
