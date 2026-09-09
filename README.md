@@ -10,6 +10,9 @@ Desarrollo del taller práctico de ingeniería de datos enfocado en la implement
 - sql/kpi_queries.sql: Vistas y consultas SQL analíticas.
 - .env: Credenciales y parámetros de conexión.
 - requirements.txt: Dependencias de Python.
+- sql/star_schema.sql: DDL con la creación de tablas del esquema estrella.
+- sql/kpi_queries.sql: Vistas y consultas SQL analíticas.
+
 
 ## Despliegue e Infraestructura
 El entorno de base de datos se encuentra desplegado bajo una arquitectura en la nube y conectividad segura:
