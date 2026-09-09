@@ -1,8 +1,4 @@
-.DS_Store
 __pycache__/
-.ipynb_checkpoints/
-*.db
-*.sqlite3
-venv/
 .env
-~$*
+venv/
+.DS_Store
